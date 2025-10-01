@@ -21,22 +21,22 @@ const Banner = () => {
         showStatus={false}
       >
         <div>
-          <img className="h-[600px]" src={image1} alt="Slide 1" />
+          <img className="h-[300px] md:h-[750px]" src={image1} alt="Slide 1" />
         </div>
         <div>
-          <img className="h-[600px]" src={image2} alt="Slide 1" />
+          <img className="h-[300px] md:h-[750px]" src={image2} alt="Slide 1" />
         </div>
         <div>
-          <img className="h-[600px]" src={image3} alt="Slide 1" />
+          <img className="h-[300px] md:h-[750px]" src={image3} alt="Slide 1" />
         </div>
         <div>
-          <img className="h-[600px]" src={image4} alt="Slide 1" />
+          <img className="h-[300px] md:h-[750px]" src={image4} alt="Slide 1" />
         </div>
         <div>
-          <img className="h-[600px]" src={image5} alt="Slide 1" />
+          <img className="h-[300px] md:h-[750px]" src={image5} alt="Slide 1" />
         </div>
         <div>
-          <img className="h-[600px]" src={image6} alt="Slide 1" />
+          <img className="h-[300px] md:h-[750px]" src={image6} alt="Slide 1" />
         </div>
       </Carousel>
     </div>

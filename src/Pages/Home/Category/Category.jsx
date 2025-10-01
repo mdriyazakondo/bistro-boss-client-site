@@ -14,7 +14,7 @@ import SectionTtile from "../../../components/SectionTitle/SectionTtile";
 
 const Category = () => {
   return (
-    <section className="max-w-6xl mx-auto my-12">
+    <section className="max-w-6xl mx-4 md:mx-auto my-12">
       <SectionTtile
         subHeading={"From 11:00AM to 10:00PM"}
         headding={"Order Online"}
@@ -31,31 +31,31 @@ const Category = () => {
       >
         <SwiperSlide className="relative">
           <img className="w-[400px] " src={image1} alt="" />
-          <h2 className="absolute  text-4xl uppercase bottom-12 right-0 left-0 text-center text-white ">
+          <h2 className="absolute  text-2xl md:text-4xl uppercase bottom-5 md:bottom-12 right-0 left-0 text-center text-white ">
             Salad
           </h2>
         </SwiperSlide>
         <SwiperSlide className="relative">
           <img className="w-[400px]" src={image2} alt="" />
-          <h2 className="absolute  text-4xl uppercase bottom-12 right-0 left-0 text-center text-white ">
+          <h2 className="absolute  text-2xl md:text-4xl uppercase bottom-5 md:bottom-12 right-0 left-0 text-center text-white ">
             Soups
           </h2>
         </SwiperSlide>
         <SwiperSlide className="relative">
           <img className="w-[400px]" src={image3} alt="" />
-          <h2 className="absolute  text-4xl uppercase bottom-12 right-0 left-0 text-center text-white ">
+          <h2 className="absolute  text-2xl md:text-4xl uppercase bottom-5 md:bottom-12 right-0 left-0 text-center text-white ">
             pizza
           </h2>
         </SwiperSlide>
         <SwiperSlide className="relative">
           <img className="w-[400px]" src={image4} alt="" />
-          <h2 className="absolute  text-4xl uppercase bottom-12 right-0 left-0 text-center text-white ">
+          <h2 className="absolute  text-2xl md:text-4xl uppercase bottom-5 md:bottom-12 right-0 left-0 text-center text-white ">
             desserts
           </h2>
         </SwiperSlide>
         <SwiperSlide className="relative">
           <img className="w-[400px]" src={image5} alt="" />
-          <h2 className="absolute  text-4xl uppercase bottom-12 right-0 left-0 text-center text-white ">
+          <h2 className="absolute  text-2xl md:text-4xl uppercase bottom-5 md:bottom-12 right-0 left-0 text-center text-white ">
             Salad
           </h2>
         </SwiperSlide>
