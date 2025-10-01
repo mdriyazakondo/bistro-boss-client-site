@@ -4,7 +4,7 @@ import bgImg from "../../../assets/home/chef-service.jpg";
 const About = () => {
   return (
     <div
-      className="relative bg-cover bg-center h-[400px] flex items-center justify-center my-12 mx-4 md:mx-0"
+      className="relative bg-fixed bg-cover bg-center h-[400px] flex items-center justify-center my-12 mx-4 md:mx-0"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="absolute inset-0 bg-black/40 backdrop-blur-xs"></div>

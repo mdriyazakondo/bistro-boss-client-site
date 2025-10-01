@@ -6,6 +6,7 @@ import Populer from "../Populer/Populer";
 import Recomand from "../Recomand/Recomand";
 import Fretured from "../Feruted/Fretured";
 import Tastimonial from "../Tastimonials/Tastimonial";
+import Calls from "../Calls/Calls";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Category />
       <About />
       <Populer />
+      <Calls />
       <Recomand />
       <Fretured />
       <Tastimonial />
