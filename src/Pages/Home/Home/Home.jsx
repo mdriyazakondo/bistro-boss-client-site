@@ -5,6 +5,7 @@ import About from "../About/About";
 import Populer from "../Populer/Populer";
 import Recomand from "../Recomand/Recomand";
 import Fretured from "../Feruted/Fretured";
+import Tastimonial from "../Tastimonials/Tastimonial";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Populer />
       <Recomand />
       <Fretured />
+      <Tastimonial />
     </div>
   );
 };

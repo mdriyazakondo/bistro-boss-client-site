@@ -16,7 +16,7 @@ const Recomand = () => {
       });
   }, []);
   return (
-    <section className="my-12">
+    <section className="my-12 mx-4 md:mx-0">
       <SectionTtile subHeading={"Should Try"} headding={"CHEF RECOMMENDS"} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {recomand.map((item) => (

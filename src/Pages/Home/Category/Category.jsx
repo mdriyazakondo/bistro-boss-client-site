@@ -14,7 +14,7 @@ import SectionTtile from "../../../components/SectionTitle/SectionTtile";
 
 const Category = () => {
   return (
-    <section className="max-w-6xl mx-4 md:mx-auto my-12">
+    <section className="max-w-6xl mx-4 md:mx-auto my-12 cursor-pointer">
       <SectionTtile
         subHeading={"From 11:00AM to 10:00PM"}
         headding={"Order Online"}
